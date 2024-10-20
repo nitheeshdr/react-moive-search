@@ -8,7 +8,7 @@ function MovieDetails() {
   const [credits, setCredits] = useState(null);
   const [error, setError] = useState("");
 
-  const apiKey = "8a138c7071b8253c505a486b9af1d1f3";
+  const apiKey = process.env.REACT_APP_TMDB_API_KEY;
 
   useEffect(() => {
     // Fetch movie details

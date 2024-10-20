@@ -10,7 +10,7 @@ function App() {
   const [movies, setMovies] = useState([]);
   const [error, setError] = useState("");
 
-  const apiKey = "8a138c7071b8253c505a486b9af1d1f3"; // TMDb API key
+  const apiKey = process.env.REACT_APP_TMDB_API_KEY;// TMDb API key
 
   const searchMovies = async (e) => {
     e.preventDefault();
