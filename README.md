@@ -39,3 +39,8 @@ Make sure you have the following installed:
 
    ```bash
    git clone https://github.com/nitheeshdr/react-moive-search.git
+
+2. To Start:
+
+   ```bash
+   npm start  
